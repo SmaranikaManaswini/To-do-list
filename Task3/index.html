@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>To Do List</h2>
+            <div class="input"> <input type="text" placeholder="Write here..." id="inputBx">
+            <button class="add-button">
+                <i  onclick="addItem" class="fa fa-plus-circle"></i>
+            </button></div>
+           
+            <ul id="list" id="new"></ul>
+            <img src="./empty.svg"  class="empty-image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
